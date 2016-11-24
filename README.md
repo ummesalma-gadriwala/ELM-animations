@@ -1,2 +1,2 @@
-# understandingAssembly
-Using animations to understand assembly
+# Understanding Assembly
+Using animations to understand assembly, registers and the ALU.
