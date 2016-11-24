@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html><head><meta charset="UTF-8"><title>Main</title><style>html,head,body { padding:0; margin:0; }
+<html><head><meta charset="UTF-8"><title>Histogram</title><style>html,head,body { padding:0; margin:0; }
 body { font-family: calibri, helvetica, arial, sans-serif; }</style><script type="text/javascript">var Elm = Elm || { Native: {} };Elm.Native.Array = {};
 Elm.Native.Array.make = function(localRuntime) {
 
@@ -528,7 +528,7 @@ Elm.Native.Array.make = function(localRuntime) {
 
 		var c = append_(a, b);
 
-		// Check if both nodes can be crunshed together.
+		// Check if both nodes can be crunched together.
 		if (c[0].table.length + c[1].table.length <= M)
 		{
 			if (c[0].table.length === 0)
@@ -11624,7 +11624,7 @@ Elm.Main.make = function (_elm) {
                                                 A2($Graphics$Collage.move,
                                                 {ctor: "_Tuple2",_0: -5,_1: 0},
                                                 $Graphics$Collage.toForm($Graphics$Element.show(word))))]));
-      });
+      })
       var cWidth = 1000;
       var cHeight = 800;
       var mvRect = function (_p3) {
@@ -11651,7 +11651,7 @@ Elm.Main.make = function (_elm) {
       return A2($Html.div,
       _U.list([]),
       _U.list([A2($Html.input,
-              _U.list([$Html$Attributes.placeholder("Enter Text")
+              _U.list([$Html$Attributes.placeholder("`Histrogram of words`. Start typing here!")
                       ,$Html$Attributes.value(string)
                       ,A3($Html$Events.on,
                       "input",
